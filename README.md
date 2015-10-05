@@ -6,7 +6,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository use a command like this:
 
-    repo init -u git://github.com/sam-aosp/android.git -b nfx-5.1
+    repo init -u git://github.com/sam-aosp/android.git -b nfx-6.0
 
 Then to sync up:
 
