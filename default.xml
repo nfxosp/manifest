@@ -528,6 +528,6 @@
   <project path="manifest" name="nfxosp/platform_manifest" remote="github" revision="nfx-5.1" />
   <project path="system/core" name="nfxosp/platform_system_core" remote="github" revision="nfx-5.1" />
   <project path="system/extras" name="nfxosp/platform_system_extras" remote="github" revision="nfx-5.1" />
-  <project path="vendor/aosp" name="nfxosp/platform_vendor_aosp" remote="github" revision="nfx-5.1" />
+  <project path="vendor/nfx" name="nfxosp/platform_vendor_aosp" remote="github" revision="nfx-5.1" />
 
 </manifest>
