@@ -393,23 +393,23 @@
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" />
   
   <!-- custom repos -->
-  <project path="build" name="nfxosp/platform_build" remote="github" revision="nfx-6.0" groups="pdk" >
+  <project path="build" name="platform_build" remote="nfx" revision="nfx-6.0" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bootable/recovery" name="nfxosp/platform_bootable_recovery" remote="github" revision="nfx-6.0" groups="pdk" />
-  <project path="device/samsung/espresso-common" name="nfxosp/platform_device_samsung_espresso-common" remote="github" revision="nfx-6.0" />
-  <project path="device/samsung/omap4-common" name="nfxosp/platform_device_samsung_omap4-common" remote="github" revision="nfx-6.0" />
-  <project path="device/samsung/p3100" name="nfxosp/platform_device_samsung_p3100" remote="github" revision="nfx-6.0" />
-  <project path="device/samsung/p3110" name="nfxosp/platform_device_samsung_p3110" remote="github" revision="nfx-6.0" />
-  <project path="frameworks/av" name="nfxosp/platform_frameworks_av" remote="github" revision="nfx-6.0" groups="pdk" />
-  <project path="frameworks/base" name="nfxosp/platform_frameworks_base" remote="github" revision="nfx-6.0" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="nfxosp/platform_frameworks_native" remote="github" revision="nfx-6.0" groups="pdk" />
+  <project path="bootable/recovery" name="platform_bootable_recovery" remote="nfx" revision="nfx-6.0" groups="pdk" />
+  <project path="device/samsung/espresso-common" name="platform_device_samsung_espresso-common" remote="nfx" revision="nfx-6.0" />
+  <project path="device/samsung/omap4-common" name="platform_device_samsung_omap4-common" remote="nfx" revision="nfx-6.0" />
+  <project path="device/samsung/p3100" name="platform_device_samsung_p3100" remote="nfx" revision="nfx-6.0" />
+  <project path="device/samsung/p3110" name="platform_device_samsung_p3110" remote="nfx" revision="nfx-6.0" />
+  <project path="frameworks/av" name="platform_frameworks_av" remote="nfx" revision="nfx-6.0" groups="pdk" />
+  <project path="frameworks/base" name="platform_frameworks_base" remote="nfx" revision="nfx-6.0" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/native" name="platform_frameworks_native" remote="nfx" revision="nfx-6.0" groups="pdk" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="nfx" revision="nfx-6.0" groups="pdk" />
-  <project path="hardware/ril" name="nfxosp/platform_hardware_ril" remote="github" revision="nfx-6.0" groups="pdk" />
-  <project path="hardware/samsung" name="nfxosp/platform_hardware_samsung" remote="github" revision="nfx-6.0" />
-  <project path="hardware/ti/omap4" name="nfxosp/platform_hardware_ti_omap4" remote="github" revision="nfx-6.0" />
-  <project path="system/core" name="nfxosp/platform_system_core" remote="github" revision="nfx-6.0" groups="pdk" />
-  <project path="system/extras" name="nfxosp/platform_system_extras" remote="github" revision="nfx-6.0" groups="pdk" />
-  <project path="vendor/aosp" name="nfxosp/platform_vendor_nfx" remote="github" revision="nfx-6.0" groups="pdk" />
+  <project path="hardware/ril" name="platform_hardware_ril" remote="nfx" revision="nfx-6.0" groups="pdk" />
+  <project path="hardware/samsung" name="platform_hardware_samsung" remote="nfx" revision="nfx-6.0" />
+  <project path="hardware/ti/omap4" name="platform_hardware_ti_omap4" remote="nfx" revision="nfx-6.0" />
+  <project path="system/core" name="platform_system_core" remote="nfx" revision="nfx-6.0" groups="pdk" />
+  <project path="system/extras" name="platform_system_extras" remote="nfx" revision="nfx-6.0" groups="pdk" />
+  <project path="vendor/aosp" name="platform_vendor_nfx" remote="nfx" revision="nfx-6.0" groups="pdk" />
 
 </manifest>
