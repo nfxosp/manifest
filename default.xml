@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="nfx"
+           fetch="https://github.com/nfxosp" />
   <remote  name="github"
            fetch="https://github.com/" />
   <remote  name="aosp"
@@ -402,7 +404,7 @@
   <project path="frameworks/av" name="nfxosp/platform_frameworks_av" remote="github" revision="nfx-6.0" groups="pdk" />
   <project path="frameworks/base" name="nfxosp/platform_frameworks_base" remote="github" revision="nfx-6.0" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="nfxosp/platform_frameworks_native" remote="github" revision="nfx-6.0" groups="pdk" />
-  <project path="frameworks/opt/telephony" name="nfxosp/platform_frameworks_opt_telephony" remote="github" revision="nfx-6.0" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="nfx" revision="nfx-6.0" groups="pdk" />
   <project path="hardware/ril" name="nfxosp/platform_hardware_ril" remote="github" revision="nfx-6.0" groups="pdk" />
   <project path="hardware/samsung" name="nfxosp/platform_hardware_samsung" remote="github" revision="nfx-6.0" />
   <project path="hardware/ti/omap4" name="nfxosp/platform_hardware_ti_omap4" remote="github" revision="nfx-6.0" />
