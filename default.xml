@@ -14,7 +14,6 @@
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
-  <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
   <project path="developers/build" name="platform/developers/build" />
@@ -405,6 +404,7 @@
   <project path="build" name="nfxosp/platform_build" remote="github" revision="nfx-6.0" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="bionic" name="nfxosp/platform_bionic" remote="github" revision="nfx-6.0" groups="pdk" />
   <project path="bootable/recovery" name="nfxosp/platform_bootable_recovery" remote="github" revision="nfx-6.0" groups="pdk" />
   <project path="device/samsung/espresso-common" name="nfxosp/platform_device_samsung_espresso-common" remote="github" revision="nfx-6.0" />
   <project path="device/samsung/omap4-common" name="nfxosp/platform_device_samsung_omap4-common" remote="github" revision="nfx-6.0" />
