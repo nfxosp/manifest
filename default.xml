@@ -283,9 +283,7 @@
   <project path="ndk" name="platform/ndk" groups="generic_fs" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" groups="pdk-fs"/>
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" groups="pdk-fs" />
-  <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" groups="pdk-fs" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" groups="pdk-fs" />
   <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" groups="pdk-fs" />
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-fs" />
@@ -300,7 +298,6 @@
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" groups="pdk-fs" />
   <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" groups="pdk-fs" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
@@ -309,7 +306,6 @@
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
@@ -394,7 +390,6 @@
   </project>
   <project path="bootable/recovery" name="nfxosp/platform_bootable_recovery" remote="github" revision="nfx-6.0" groups="pdk" />
   <project path="device/samsung/espresso-common" name="nfxosp/platform_device_samsung_espresso-common" remote="github" revision="nfx-6.0" />
-  <project path="device/samsung/omap4-common" name="nfxosp/platform_device_samsung_omap4-common" remote="github" revision="nfx-6.0" />
   <project path="device/samsung/p3100" name="nfxosp/platform_device_samsung_p3100" remote="github" revision="nfx-6.0" />
   <project path="device/samsung/p3110" name="nfxosp/platform_device_samsung_p3110" remote="github" revision="nfx-6.0" />
   <project path="external/elfutils" name="nfxosp/platform_external_elfutils" remote="github" revision="nfx-6.0" groups="pdk" />
@@ -405,11 +400,17 @@
   <project path="hardware/ril" name="nfxosp/platform_hardware_ril" remote="github" revision="nfx-6.0" groups="pdk" />
   <project path="hardware/samsung" name="nfxosp/platform_hardware_samsung" remote="github" revision="nfx-6.0" />
   <project path="hardware/ti/omap4" name="nfxosp/platform_hardware_ti_omap4" remote="github" revision="nfx-6.0" />
-  <project path="hardware/ti/omap4xxx" name="nfxosp/platform_hardware_ti_omap4xxx" remote="github" revision="nfx-6.0" groups="omap4" />
   <project path="kernel/samsung/espresso10" name="nfxosp/platform_kernel_samsung_espresso10" remote="github" revision="nfx-6.0" groups="pdk" />
+  <project path="packages/apps/Apollo" name="nfxosp/platform_packages_apps_Apollo" remote="github" revision="nfx-6.0" groups="pdk-fs" />
+  <project path="packages/apps/Browser" name="nfxosp/platform_packages_apps_Browser" remote="github" revision="nfx-6.0" groups="pdk-fs"/>
+  <project path="packages/apps/Calendar" name="nfxosp/platform_packages_apps_Calendar" remote="github" revision="nfx-6.0" groups="pdk-fs" />
+  <project path="packages/apps/DSPManager" name="nfxosp/platform_packages_apps_DSPManager" remote="github" revision="nfx-6.0" groups="pdk-fs" />
+  <project path="packages/apps/Gallery2" name="nfxosp/platform_packages_apps_Gallery2" remote="github" revision="nfx-6.0" groups="pdk-fs" />
+  <project path="packages/apps/Music" name="platform/packages/apps/Music" groups="pdk-fs" />
   <project path="packages/apps/Settings" name="nfxosp/platform_packages_apps_Settings" remote="github" revision="nfx-6.0" groups="pdk-fs" />
   <project path="system/core" name="nfxosp/platform_system_core" remote="github" revision="nfx-6.0" groups="pdk" />
   <project path="system/extras" name="nfxosp/platform_system_extras" remote="github" revision="nfx-6.0" groups="pdk" />
+  <project path="system/extras/su" name="nfxosp/platform_system_extras_su" remote="github" revision="nfx-6.0" groups="pdk" />
   <project path="vendor/nfx" name="nfxosp/platform_vendor_nfx" remote="github" revision="nfx-6.0" groups="pdk" />
   <project path="vendor/samsung" name="nfxosp/platform_vendor_samsung" remote="github" revision="nfx-6.0" groups="pdk" />
 
