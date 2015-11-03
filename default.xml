@@ -391,6 +391,7 @@
   <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="github" revision="cm-13.0" />
   <project path="external/elfutils" name="nfxosp/platform_external_elfutils" remote="github" revision="nfx-6.0" groups="pdk" />
   <project path="external/libnfc-nci" name="nfxosp/platform_external_libnfc-nci" groups="pdk" remote="github" revision="nfx-6.0" />
+  <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-13.0" />
   <project path="frameworks/av" name="nfxosp/platform_frameworks_av" remote="github" revision="nfx-6.0" groups="pdk" />
   <project path="frameworks/base" name="nfxosp/platform_frameworks_base" remote="github" revision="nfx-6.0" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="nfxosp/platform_frameworks_native" remote="github" revision="nfx-6.0" groups="pdk" />
@@ -401,6 +402,7 @@
   <project path="hardware/libhardware_legacy" name="nfxosp/platform_hardware_libhardware_legacy" remote="github" revision="nfx-6.0" groups="pdk" />
   <project path="hardware/ril" name="nfxosp/platform_hardware_ril" remote="github" revision="nfx-6.0" groups="pdk" />
   <project path="hardware/samsung" name="nfxosp/platform_hardware_samsung" remote="github" revision="nfx-6.0" />
+  <project path="hardware/samsung_slsi-cm/exynos" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos" remote="github" revision="cm-13.0" />
   <project path="hardware/samsung_slsi-cm/exynos5" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5" remote="github" revision="cm-13.0" />
   <project path="hardware/samsung_slsi-cm/exynos5410" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5410" remote="github" revision="cm-13.0" />
   <project path="hardware/samsung_slsi-cm/openmax" name="CyanogenMod/android_hardware_samsung_slsi-cm_openmax" remote="github" revision="cm-13.0" />
