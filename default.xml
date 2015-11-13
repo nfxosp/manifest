@@ -424,6 +424,7 @@
   <project path="build" name="nfxosp/platform_build" remote="github" revision="nfx-5.1" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="device/samsung/i9500" name="nfxosp/platform_device_samsung_i9500" remote="github" revision="nfx-5.1" />
   <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="github" revision="cm-12.1" />
   <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="github" revision="cm-12.1" />
   <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="github" revision="cm-12.1" />
