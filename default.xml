@@ -357,7 +357,6 @@
   <project path="packages/screensavers/WebView" name="platform/packages/screensavers/WebView" />
   <project path="packages/services/Mms" name="platform/packages/services/Mms" />
   <project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" />
-  <project path="packages/services/Telephony" name="platform/packages/services/Telephony" />
   <project path="packages/wallpapers/Basic" name="platform/packages/wallpapers/Basic" />
   <project path="packages/wallpapers/Galaxy4" name="platform/packages/wallpapers/Galaxy4" />
   <project path="packages/wallpapers/HoloSpiral" name="platform/packages/wallpapers/HoloSpiral" />
@@ -467,6 +466,7 @@
   <project path="packages/apps/Screencast" name="namelessrom/android_packages_apps_Screencast" remote="github" revision="nfx-6.0" /> -->
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Settings" name="nfxosp/platform_packages_apps_Settings" remote="github" revision="nfx-5.1" groups="pdk-fs" />
+  <project path="packages/services/Telephony" name="nfxosp/platform_packages_services_Telephony" remote="github" revision="nfx-5.1" />
   <!-- <project path="packages/apps/SuperSU" name="GearCM/android_packages_apps_SuperSU" remote="github" revision="nfx-6.0" />
   <project path="packages/apps/Synapse" name="GearCM/android_packages_apps_Synapse" remote="github" revision="nfx-6.0" /> -->
   <project path="packages/apps/Terminal" name="nfxosp/platform_packages_apps_Terminal" remote="github" revision="nfx-5.1" />
