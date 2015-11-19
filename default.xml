@@ -477,5 +477,8 @@
   <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" remote="github" revision="cm-12.1" groups="pdk" />
   <project path="vendor/nfx" name="nfxosp/platform_vendor_nfx" remote="github" revision="nfx-5.1" groups="pdk" />
   <project path="vendor/samsung" name="nfxosp/platform_vendor_samsung" remote="github" revision="nfx-5.1" groups="pdk" />
+  
+  <!-- marshmallow messaging -->
+  <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" revision="marshmallow-release" />
 
 </manifest>
