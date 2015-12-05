@@ -70,6 +70,7 @@
   <project path="external/embunit" name="platform/external/embunit" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/emma" name="platform/external/emma" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/esd" name="platform/external/esd" groups="pdk-cw-fs,pdk-fs" />
+  <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-13.0" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
@@ -177,6 +178,7 @@
   <project path="external/nist-pkits" name="platform/external/nist-pkits" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/nist-sip" name="platform/external/nist-sip" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/noto-fonts" name="platform/external/noto-fonts" groups="pdk" />
+  <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="github" revision="cm-13.0ex" />
   <project path="external/oauth" name="platform/external/oauth" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/objenesis" name="platform/external/objenesis" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/okhttp" name="platform/external/okhttp" groups="pdk-cw-fs,pdk-fs" />
@@ -267,7 +269,7 @@
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs,pdk-fs" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="pdk,broadcom_wlan" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
+  <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" remote="github" revision="cm-13.0" groups="invensense" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt" />
   <project path="hardware/mediatek" name="platform/hardware/mediatek" groups="mediatek,mediatek_wear" />
@@ -403,9 +405,9 @@
   <project path="hardware/ril" name="nfxosp/platform_hardware_ril" remote="github" revision="nfx-6.0" groups="pdk" />
   <project path="hardware/samsung" name="nfxosp/platform_hardware_samsung" remote="github" revision="nfx-6.0" />
   <project path="hardware/samsung_slsi-cm/exynos" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos" remote="github" revision="cm-13.0" />
-  <project path="hardware/samsung_slsi-cm/exynos5" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5" remote="github" revision="cm-13.0" />
-  <project path="hardware/samsung_slsi-cm/exynos5410" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5410" remote="github" revision="cm-13.0" />
-  <project path="hardware/samsung_slsi-cm/openmax" name="CyanogenMod/android_hardware_samsung_slsi-cm_openmax" remote="github" revision="cm-13.0" />
+  <project path="hardware/samsung_slsi-cm/exynos5" name="nfxosp/platform_hardware_samsung_slsi-cm_exynos5" remote="github" revision="nfx-6.0" />
+  <project path="hardware/samsung_slsi-cm/exynos5410" name="nfxosp/platform_hardware_samsung_slsi-cm_exynos5410" remote="github" revision="nfx-6.0" />
+  <project path="hardware/samsung_slsi-cm/openmax" name="nfxosp/platform_hardware_samsung_slsi-cm_openmax" remote="github" revision="nfx-6.0" />
   <project path="hardware/ti/omap4" name="nfxosp/platform_hardware_ti_omap4" remote="github" revision="nfx-6.0" />
   <project path="kernel/samsung/espresso10" name="nfxosp/platform_kernel_samsung_espresso10" remote="github" revision="nfx-6.0" groups="pdk" />
   <project path="kernel/samsung/exynos5410" name="nfxosp/platform_kernel_samsung_exynos5410" remote="github" revision="nfx-6.0" />
