@@ -280,10 +280,12 @@
   <project path="hardware/libhardware" name="nfxosp/platform_hardware_libhardware" remote="github" revision="nfx-4.4.4" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="nfxosp/platform_hardware_libhardware_legacy" remote="github" revision="nfx-4.4.4" groups="pdk" />
   <project path="hardware/ril" name="nfxosp/platform_hardware_ril" remote="github" revision="nfx-4.4.4" groups="pdk" />
+  <project path="hardware/samsung" name="omnirom/android_hardware_samsung" remote="github" revision="android-4.4" />
   <project path="hardware/samsung_slsi/exynos" name="android_hardware_samsung_slsi_exynos" remote="origin" revision="refs/heads/odroid_5410_master" />
   <project path="hardware/samsung_slsi/exynos5" name="android_hardware_samsung_slsi_exynos5" remote="origin" revision="refs/heads/odroid_5410_master" />
   <project path="hardware/samsung_slsi/exynos5410" name="android_hardware_samsung_slsi_exynos5410" remote="origin" revision="refs/heads/odroid_5410_master" />
   <project path="hardware/samsung_slsi/openmax" name="android_hardware_samsung_slsi_openmax" remote="origin" revision="refs/heads/odroid_5410_master" />
+  <project path="kernel/samsung/exynos5410" name="nfxosp/platform_kernel_samsung_exynos5410" remote="github" revision="nfx-5.1" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
@@ -322,6 +324,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
+  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="origin" revision="refs/heads/odroid_5410_master" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="origin" revision="refs/heads/odroid_5410_master" />
