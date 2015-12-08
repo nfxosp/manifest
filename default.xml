@@ -383,4 +383,6 @@
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="system/vold" name="nfxosp/platform_system_vold" groups="pdk" remote="github" revision="nfx-4.4.4" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
-  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" /></manifest>
+  <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" />
+  <project path="vendor/samsung" name="nfxosp/platform_vendor_samsung" remote="github" revision="nfx-5.1" groups="pdk" />
+  </manifest>
