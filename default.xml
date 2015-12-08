@@ -281,11 +281,11 @@
   <project path="hardware/libhardware_legacy" name="nfxosp/platform_hardware_libhardware_legacy" remote="github" revision="nfx-4.4.4" groups="pdk" />
   <project path="hardware/ril" name="nfxosp/platform_hardware_ril" remote="github" revision="nfx-4.4.4" groups="pdk" />
   <project path="hardware/samsung" name="omnirom/android_hardware_samsung" remote="github" revision="android-4.4" />
-  <project path="hardware/samsung_slsi/exynos" name="android_hardware_samsung_slsi_exynos" remote="origin" revision="refs/heads/odroid_5410_master" />
-  <project path="hardware/samsung_slsi/exynos5" name="android_hardware_samsung_slsi_exynos5" remote="origin" revision="refs/heads/odroid_5410_master" />
-  <project path="hardware/samsung_slsi/exynos5410" name="android_hardware_samsung_slsi_exynos5410" remote="origin" revision="refs/heads/odroid_5410_master" />
-  <project path="hardware/samsung_slsi/openmax" name="android_hardware_samsung_slsi_openmax" remote="origin" revision="refs/heads/odroid_5410_master" />
-  <project path="kernel/samsung/exynos5410" name="nfxosp/platform_kernel_samsung_exynos5410" remote="github" revision="nfx-5.1" />
+  <project path="hardware/samsung_slsi/exynos" name="nfxosp/android_hardware_samsung_slsi_exynos" remote="github" revision="nfx-4.4.4" />
+  <project path="hardware/samsung_slsi/exynos5" name="nfxosp/android_hardware_samsung_slsi_exynos5" remote="github" revision="nfx-4.4.4" />
+  <project path="hardware/samsung_slsi/exynos5410" name="nfxosp/android_hardware_samsung_slsi_exynos5410" remote="github" revision="nfx-4.4.4" />
+  <project path="hardware/samsung_slsi/openmax" name="nfxosp/android_hardware_samsung_slsi_openmax" remote="github" revision="nfx-4.4.4" />
+  <project path="kernel/samsung/exynos5410" name="nfxosp/platform_kernel_samsung_exynos5410" remote="github" revision="nfx-4.4.4" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
@@ -387,6 +387,6 @@
   <project path="system/vold" name="nfxosp/platform_system_vold" groups="pdk" remote="github" revision="nfx-4.4.4" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" />
-  <project path="vendor/samsung" name="nfxosp/platform_vendor_samsung" remote="github" revision="nfx-5.1" groups="pdk" />
-  <project path="vendor/nfx" name="nfxosp/platform_vendor_nfx" remote="github" revision="nfx-5.1" groups="pdk" />
+  <project path="vendor/samsung" name="nfxosp/platform_vendor_samsung" remote="github" revision="nfx-4.4.4" groups="pdk" />
+  <project path="vendor/nfx" name="nfxosp/platform_vendor_nfx" remote="github" revision="nfx-4.4.4" groups="pdk" />
   </manifest>
