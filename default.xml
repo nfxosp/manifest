@@ -14,29 +14,32 @@
            
   <remote  name="nfxosp"
            fetch="https://github.com/nfxosp" />
+           
+  <remote  name="github"
+           fetch="https://github.com/" />
 
   <default revision="refs/tags/android-4.4.4_r2.0.1"
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="android_build" remote="nfxosp" revision="nfx-4.4.4" groups="pdk" >
+  <project path="build" name="nfxosp/platform_build" remote="github" revision="nfx-4.4.4" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" />
-  <project path="bionic" name="android_bionic" remote="nfxosp" revision="nfx-4.4.4" groups="pdk" />
+  <project path="bionic" name="nfxosp/platform_bionic" remote="github" revision="nfx-4.4.4" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts" />
-  <project path="dalvik" name="platform_dalvik" remote="nfxosp" revision="nfx-4.4.4" />
+  <project path="dalvik" name="nfxosp/platform_dalvik" remote="github" revision="nfx-4.4.4" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/samsung/i9500" name="android_device_samsung_i9500" remote="nfxosp" revision="nfx-4.4.4" groups="device" />
+  <project path="device/samsung/i9500" name="nfxosp/platform_device_samsung_i9500" remote="github" revision="nfx-4.4.4" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -207,7 +210,7 @@
   <project path="external/sepolicy" name="platform/external/sepolicy" groups="pdk" />
   <project path="external/sfntly" name="platform/external/sfntly" />
   <project path="external/sil-fonts" name="platform/external/sil-fonts" />
-  <project path="external/skia" name="android_external_skia" remote="origin" revision="refs/heads/odroid_5410_master" />
+  <project path="external/skia" name="nfxosp/platform_external_skia" remote="github" revision="nfx-4.4.4" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -238,15 +241,15 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/av" name="android_frameworks_av" remote="nfxosp" revision="nfx-4.4.4" groups="pdk" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="nfxosp" revision="nfx-4.4.4" />
+  <project path="frameworks/av" name="nfxosp/platform_frameworks_av" remote="github" revision="nfx-4.4.4" groups="pdk" />
+  <project path="frameworks/base" name="nfxosp/platform_frameworks_base" remote="github" revision="nfx-4.4.4" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/ex" name="platform/frameworks/ex" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
   <project path="frameworks/ml" name="platform/frameworks/ml" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="nfxosp" revision="nfx-4.4.4" groups="pdk" />
+  <project path="frameworks/native" name="nfxosp/platform_frameworks_native" remote="github" revision="nfx-4.4.4" groups="pdk" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" />
@@ -271,9 +274,9 @@
   <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="nfxosp" revision="nfx-4.4.4" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="nfxosp" revision="nfx-4.4.4" groups="pdk" />
-  <project path="hardware/ril" name="platform_hardware_ril" remote="nfxosp" revision="nfx-4.4.4" groups="pdk" />
+  <project path="hardware/libhardware" name="nfxosp/platform_hardware_libhardware" remote="github" revision="nfx-4.4.4" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="nfxosp/platform_hardware_libhardware_legacy" remote="github" revision="nfx-4.4.4" groups="pdk" />
+  <project path="hardware/ril" name="nfxosp/platform_hardware_ril" remote="github" revision="nfx-4.4.4" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos" name="android_hardware_samsung_slsi_exynos" remote="origin" revision="refs/heads/odroid_5410_master" />
   <project path="hardware/samsung_slsi/exynos5" name="android_hardware_samsung_slsi_exynos5" remote="origin" revision="refs/heads/odroid_5410_master" />
   <project path="hardware/samsung_slsi/exynos5410" name="android_hardware_samsung_slsi_exynos5410" remote="origin" revision="refs/heads/odroid_5410_master" />
@@ -368,11 +371,11 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" />
-  <project path="system/core" name="android_system_core" remote= "nfxosp" revision="nfx-4.4.4" groups="pdk" />
-  <project path="system/extras" name="android_system_extras" remote="nfxosp" revision="nfx-4.4.4" groups="pdk" />
+  <project path="system/core" name="nfxosp/platform_system_core" remote= "github" revision="nfx-4.4.4" groups="pdk" />
+  <project path="system/extras" name="nfxosp/platform_system_extras" remote="github" revision="nfx-4.4.4" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/vold" name="android_system_vold" groups="pdk" remote="nfxosp" revision="nfx-4.4.4" />
+  <project path="system/vold" name="nfxosp/platform_system_vold" groups="pdk" remote="github" revision="nfx-4.4.4" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" /></manifest>
