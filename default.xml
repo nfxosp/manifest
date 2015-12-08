@@ -385,4 +385,5 @@
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" />
   <project path="vendor/samsung" name="nfxosp/platform_vendor_samsung" remote="github" revision="nfx-5.1" groups="pdk" />
+  <project path="vendor/nfx" name="nfxosp/platform_vendor_nfx" remote="github" revision="nfx-5.1" groups="pdk" />
   </manifest>
