@@ -12,6 +12,7 @@
            remote="aosp"
            sync-j="4" />
 
+  <project path="art" name="platform/art" groups="pdk" />
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" />
@@ -378,7 +379,6 @@
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" />
   
   <!-- custom repos -->
-  <project path="art" name="nfxosp/platform_art" remote="github" revision="nfx-6.0" groups="pdk" />
   <project path="bionic" name="nfxosp/platform_bionic" remote="github" revision="nfx-6.0" groups="pdk" />
   <project path="build" name="nfxosp/platform_build" remote="github" revision="nfx-6.0" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
