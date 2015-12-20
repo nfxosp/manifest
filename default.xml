@@ -350,22 +350,23 @@
   <project path="pdk" name="platform/pdk" groups="pdk" />
   <project path="platform_testing" name="platform/platform_testing" />
   <project path="prebuilts/android-emulator" name="platform/prebuilts/android-emulator" groups="pdk-fs" clone-depth="1" />
-  <project path="prebuilts/clang/darwin-x86/host/3.6" name="platform/prebuilts/clang/darwin-x86/host/3.6" groups="pdk,darwin" />
+  <project path="prebuilts/clang/linux-x86/host/3.6" name="platform/prebuilts/clang/linux-x86/host/3.6" groups="pdk,linux" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" />
   <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
-  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,darwin,arm" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" groups="pdk,darwin,arm" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" groups="pdk,darwin,arm" />
-  <project path="prebuilts/gcc/darwin-x86/host/headers" name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="pdk,darwin" />
-  <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" />
-  <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" groups="pdk,darwin,mips" />
-  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="pdk,darwin,x86" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8"  groups="pdk,linux" />
+  <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="pdk-fs" />
+  <project path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" groups="pdk,linux,mips" />
+  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" groups="pdk,linux,x86" />
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" groups="pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/libs/libedit" name="platform/prebuilts/libs/libedit" groups="pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" groups="pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" />
-  <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin,pdk,pdk-cw-fs,pdk-fs" />
+  <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux,pdk,pdk-cw-fs,pdk-fs" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
@@ -387,7 +388,7 @@
   <project path="device/samsung/espresso-common" name="nfxosp/platform_device_samsung_espresso-common" remote="github" revision="nfx-6.0" />
   <project path="device/samsung/p3100" name="nfxosp/platform_device_samsung_p3100" remote="github" revision="nfx-6.0" />
   <project path="device/samsung/p3110" name="nfxosp/platform_device_samsung_p3110" remote="github" revision="nfx-6.0" />
-  <project path="device/samsung/i9500" name="nfxosp/platform_device_samsung_i9500" remote="github" revision="nfx-6.0" />
+  <project path="device/samsung/i9500" name="nfxosp/platform_device_samsung_i9500" remote="github" revision="nfx-6.0-linux" />
   <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="github" revision="cm-13.0" />
   <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="github" revision="cm-13.0" />
   <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="github" revision="cm-13.0" />
@@ -403,14 +404,14 @@
   <project path="hardware/broadcom/libbt" name="nfxosp/platform_hardware_broadcom_libbt" remote="github" revision="nfx-6.0" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="nfxosp/platform_hardware_libhardware_legacy" remote="github" revision="nfx-6.0" groups="pdk" />
   <project path="hardware/ril" name="nfxosp/platform_hardware_ril" remote="github" revision="nfx-6.0" groups="pdk" />
-  <project path="hardware/samsung" name="nfxosp/platform_hardware_samsung" remote="github" revision="nfx-6.0" />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-13.0" />
   <project path="hardware/samsung_slsi-cm/exynos" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos" remote="github" revision="cm-13.0" />
-  <project path="hardware/samsung_slsi-cm/exynos5" name="nfxosp/platform_hardware_samsung_slsi-cm_exynos5" remote="github" revision="nfx-6.0" />
+  <project path="hardware/samsung_slsi-cm/exynos5" name="CyanogenMod/platform_hardware_samsung_slsi-cm_exynos5" remote="github" revision="nfx-6.0" />
   <project path="hardware/samsung_slsi-cm/exynos5410" name="nfxosp/platform_hardware_samsung_slsi-cm_exynos5410" remote="github" revision="nfx-6.0" />
-  <project path="hardware/samsung_slsi-cm/openmax" name="nfxosp/platform_hardware_samsung_slsi-cm_openmax" remote="github" revision="nfx-6.0" />
+  <project path="hardware/samsung_slsi-cm/openmax" name="CyanogenMod/platform_hardware_samsung_slsi-cm_openmax" remote="github" revision="nfx-6.0" />
   <project path="hardware/ti/omap4" name="nfxosp/platform_hardware_ti_omap4" remote="github" revision="nfx-6.0" />
   <project path="kernel/samsung/espresso10" name="nfxosp/platform_kernel_samsung_espresso10" remote="github" revision="nfx-6.0" groups="pdk" />
-  <project path="kernel/samsung/exynos5410" name="nfxosp/platform_kernel_samsung_exynos5410" remote="github" revision="nfx-6.0" />
+  <project path="kernel/samsung/exynos5410" name="nfxosp/platform_kernel_samsung_exynos5410" remote="github" revision="nfx-6.0-linux" />
   <project path="packages/apps/Apollo" name="nfxosp/platform_packages_apps_Apollo" remote="github" revision="nfx-6.0" groups="pdk-fs" />
   <project path="packages/apps/Browser" name="nfxosp/platform_packages_apps_Browser" remote="github" revision="nfx-6.0" groups="pdk-fs"/>
   <project path="packages/apps/Calendar" name="nfxosp/platform_packages_apps_Calendar" remote="github" revision="nfx-6.0" groups="pdk-fs" />
