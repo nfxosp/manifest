@@ -74,7 +74,7 @@
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-13.0" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" groups="pdk-cw-fs,pdk-fs" />
-  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" groups="pdk" />
+  <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" remote="github" revision="cm-13.0" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" groups="pdk" />
   <project path="external/fio" name="platform/external/fio" groups="pdk-fs" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
@@ -424,11 +424,11 @@
   <project path="packages/apps/Settings" name="nfxosp/platform_packages_apps_Settings" remote="github" revision="nfx-6.0" groups="pdk-fs" />
   <!-- <project path="packages/apps/SuperSU" name="GearCM/android_packages_apps_SuperSU" remote="github" revision="nfx-6.0" />
   <project path="packages/apps/Synapse" name="GearCM/android_packages_apps_Synapse" remote="github" revision="nfx-6.0" /> -->
-  <project path="system/core" name="nfxosp/platform_system_core" remote="github" revision="nfx-6.0" groups="pdk" />
+  <project path="system/core" name="nfxosp/platform_system_core" remote="github" revision="nfx-6.0-linux" groups="pdk" />
   <project path="system/extras" name="nfxosp/platform_system_extras" remote="github" revision="nfx-6.0" groups="pdk" />
   <project path="system/extras/su" name="nfxosp/platform_system_extras_su" remote="github" revision="nfx-6.0" groups="pdk" />
   <project path="system/netd" name="nfxosp/platform_system_netd" remote="github" revision="nfx-6.0" groups="pdk" />
-  <project path="system/vold" name="nfxosp/platform_system_vold" remote="github" revision="nfx-6.0" groups="pdk" />
+  <project path="system/vold" name="nfxosp/platform_system_vold" remote="github" revision="nfx-6.0-linux" groups="pdk" />
   <project path="vendor/nfx" name="nfxosp/platform_vendor_nfx" remote="github" revision="nfx-6.0" groups="pdk" />
   <project path="vendor/samsung" name="nfxosp/platform_vendor_samsung" remote="github" revision="nfx-6.0" groups="pdk" />
 
