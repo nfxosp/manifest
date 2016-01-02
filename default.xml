@@ -409,6 +409,7 @@
   <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="github" revision="cm-12.1" />
   <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="github" revision="cm-12.1" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-12.1" />
+  <project path="external/curl" name="CyanogenMod/android_external_curl" remote="github" revision="cm-12.1" />
   <project path="external/libnfc-nci" name="nfxosp/platform_external_libnfc-nci" groups="pdk" remote="github" revision="nfx-5.1" />
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" groups="pdk" remote="github" revision="cm-12.1" />
   <project path="frameworks/av" name="nfxosp/platform_frameworks_av" remote="github" revision="nfx-5.1" groups="pdk" />
