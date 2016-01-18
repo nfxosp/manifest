@@ -394,6 +394,7 @@
   <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="github" revision="cm-13.0" />
   <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="github" revision="cm-13.0" />
   <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="github" revision="cm-13.0" />
+  <project path="external/curl" name="CyanogenMod/android_external_curl" remote="github" revision="cm-13.0" />
   <project path="external/elfutils" name="nfxosp/platform_external_elfutils" remote="github" revision="nfx-6.0" groups="pdk" />
   <project path="external/libnfc-nci" name="nfxosp/platform_external_libnfc-nci" groups="pdk" remote="github" revision="nfx-6.0" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-13.0" />
