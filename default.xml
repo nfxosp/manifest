@@ -380,9 +380,9 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bootable/recovery" name="nfxosp/platform_bootable_recovery" remote="nfx" revision="nfx-6.0" groups="pdk" />
-  <project path="device/samsung/espresso-common" name="nfxosp/platform_device_samsung_espresso-common" remote="nfx" revision="nfx-6.0" />
+  <!-- <project path="device/samsung/espresso-common" name="nfxosp/platform_device_samsung_espresso-common" remote="nfx" revision="nfx-6.0" />
   <project path="device/samsung/p3100" name="nfxosp/platform_device_samsung_p3100" remote="github" revision="nfx-6.0" />
-  <project path="device/samsung/p3110" name="nfxosp/platform_device_samsung_p3110" remote="github" revision="nfx-6.0" />
+  <project path="device/samsung/p3110" name="nfxosp/platform_device_samsung_p3110" remote="github" revision="nfx-6.0" /> -->
   <project path="device/samsung/zerofltexx" name="nfxosp/platform_device_samsung_zerofltexx" remote="github" revision="nfx-6.0" />
   <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="github" revision="cm-13.0" />
   <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="github" revision="cm-13.0" />
@@ -404,13 +404,13 @@
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" remote="github" revision="cm-13.0" groups="invensense" />
   <project path="hardware/libhardware_legacy" name="nfxosp/platform_hardware_libhardware_legacy" remote="nfx" revision="nfx-6.0" groups="pdk" />
   <project path="hardware/ril" name="nfxosp/platform_hardware_ril" remote="nfx" revision="nfx-6.0" groups="pdk" />
-  <project path="hardware/samsung" name="GearCM/android_hardware_samsung" remote="github" revision="cm-13.0" />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-13.0" />
   <project path="hardware/samsung_slsi-cm/exynos" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos" remote="github" revision="cm-13.0" />
   <project path="hardware/samsung_slsi-cm/exynos5" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5" remote="github" revision="cm-13.0" />
-  <project path="hardware/samsung_slsi-cm/exynos7420" name="nfxosp/platform_hardware_samsung_slsi-cm_exynos7420" remote="nfx" revision="nfx-6.0" />
+  <!-- <project path="hardware/samsung_slsi-cm/exynos7420" name="nfxosp/platform_hardware_samsung_slsi-cm_exynos7420" remote="nfx" revision="nfx-6.0" /> -->
   <project path="hardware/samsung_slsi-cm/openmax" name="CyanogenMod/android_hardware_samsung_slsi-cm_openmax" remote="github" revision="cm-13.0" />
-  <project path="hardware/ti/omap4" name="nfxosp/platform_hardware_ti_omap4" remote="nfx" revision="nfx-6.0" />
-  <project path="kernel/samsung/espresso10" name="nfxosp/platform_kernel_samsung_espresso10" remote="nfx" revision="nfx-6.0" groups="pdk" />
+  <!-- <project path="hardware/ti/omap4" name="nfxosp/platform_hardware_ti_omap4" remote="nfx" revision="nfx-6.0" />
+  <project path="kernel/samsung/espresso10" name="nfxosp/platform_kernel_samsung_espresso10" remote="nfx" revision="nfx-6.0" groups="pdk" /> -->
   <project path="kernel/samsung/zero" name="nfxosp/platform_kernel_samsung_zero" remote="nfx" revision="nfx-6.0" />
   <project path="packages/apps/Apollo" name="nfxosp/platform_packages_apps_Apollo" remote="nfx" revision="nfx-6.0" groups="pdk-fs" />
   <project path="packages/apps/Browser" name="nfxosp/platform_packages_apps_Browser" remote="nfx" revision="nfx-6.0" groups="pdk-fs"/>
