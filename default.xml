@@ -412,7 +412,7 @@
   <project path="hardware/samsung_slsi-cm/openmax" name="CyanogenMod/android_hardware_samsung_slsi-cm_openmax" remote="github" revision="cm-13.0" />
   <project path="hardware/ti/omap4" name="nfxosp/platform_hardware_ti_omap4" remote="nfx" revision="nfx-6.0" />
   <project path="kernel/samsung/espresso10" name="nfxosp/platform_kernel_samsung_espresso10" remote="nfx" revision="nfx-6.0" groups="pdk" />
-  <project path="kernel/samsung/exynos7420" name="nfxosp/platform_kernel_samsung_exynos7420" remote="nfx" revision="nfx-6.0" />
+  <project path="kernel/samsung/zero" name="nfxosp/platform_kernel_samsung_zero" remote="nfx" revision="nfx-6.0" />
   <project path="packages/apps/Apollo" name="nfxosp/platform_packages_apps_Apollo" remote="nfx" revision="nfx-6.0" groups="pdk-fs" />
   <project path="packages/apps/Browser" name="nfxosp/platform_packages_apps_Browser" remote="nfx" revision="nfx-6.0" groups="pdk-fs"/>
   <project path="packages/apps/Calendar" name="nfxosp/platform_packages_apps_Calendar" remote="nfx" revision="nfx-6.0" groups="pdk-fs" />
