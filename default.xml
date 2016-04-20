@@ -369,6 +369,7 @@
   <project path="system/bt" name="platform/system/bt" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
+  <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
   <project path="tools/external/fat32lib" name="platform/tools/external/fat32lib" groups="tools" />
@@ -428,7 +429,6 @@
   <project path="system/core" name="nfxosp/platform_system_core" remote="nfx" revision="nfx-6.0" groups="pdk" />
   <project path="system/extras" name="nfxosp/platform_system_extras" remote="nfx" revision="nfx-6.0" groups="pdk" />
   <project path="system/extras/su" name="nfxosp/platform_system_extras_su" remote="nfx" revision="nfx-6.0" groups="pdk" />
-  <project path="system/netd" name="nfxosp/platform_system_netd" remote="nfx" revision="nfx-6.0" groups="pdk" />
   <project path="system/vold" name="nfxosp/platform_system_vold" remote="nfx" revision="nfx-6.0" groups="pdk" />
   <project path="vendor/nfx" name="nfxosp/platform_vendor_nfx" remote="nfx" revision="nfx-6.0" groups="pdk" />
   <project path="vendor/samsung" name="nfxosp/platform_vendor_samsung" remote="nfx" revision="nfx-6.0" groups="pdk" />
