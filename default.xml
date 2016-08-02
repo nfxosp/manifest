@@ -7,7 +7,7 @@
            fetch="https://github.com/" />
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
-  <default revision="refs/tags/android-6.0.1_r30"
+  <default revision="refs/tags/android-6.0.1_r61"
            sync-c="true"
            remote="aosp"
            sync-j="4" />
