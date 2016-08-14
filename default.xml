@@ -381,6 +381,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bootable/recovery" name="nfxosp/platform_bootable_recovery" remote="nfx" revision="nfx-6.0" groups="pdk" />
+  <project path="device/samsung/lt02wifi" name="nfxosp/platform_device_samsung_lt02wifi" remote="nfx" revision="nfx-6.0" />
   <!-- <project path="device/samsung/espresso-common" name="nfxosp/platform_device_samsung_espresso-common" remote="nfx" revision="nfx-6.0" />
   <project path="device/samsung/p3100" name="nfxosp/platform_device_samsung_p3100" remote="github" revision="nfx-6.0" />
   <project path="device/samsung/p3110" name="nfxosp/platform_device_samsung_p3110" remote="github" revision="nfx-6.0" /> -->
@@ -405,6 +406,7 @@
   <project path="hardware/broadcom/libbt" name="nfxosp/platform_hardware_broadcom_libbt" remote="nfx" revision="nfx-6.0" groups="pdk" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" remote="github" revision="cm-13.0" groups="invensense" />
   <project path="hardware/libhardware_legacy" name="nfxosp/platform_hardware_libhardware_legacy" remote="nfx" revision="nfx-6.0" groups="pdk" />
+  <project path="hardware/marvell" name="cmlt02/android_hardware_marvell_wlan" groups="pdk" remote="nfx" revision="creeper-1.0" />
   <project path="hardware/ril" name="nfxosp/platform_hardware_ril" remote="nfx" revision="nfx-6.0" groups="pdk" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-13.0" />
   <project path="hardware/samsung_slsi-cm/exynos" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos" remote="github" revision="cm-13.0" />
@@ -414,6 +416,7 @@
   <!-- <project path="hardware/ti/omap4" name="nfxosp/platform_hardware_ti_omap4" remote="nfx" revision="nfx-6.0" />
   <project path="kernel/samsung/espresso10" name="nfxosp/platform_kernel_samsung_espresso10" remote="nfx" revision="nfx-6.0" groups="pdk" /> -->
   <project path="kernel/samsung/exynos7420" name="nfxosp/platform_kernel_samsung_exynos7420" remote="nfx" revision="nfx-6.0" />
+  <project path="kernel/samsung/lt02" name="nfxosp/platform_kernel_samsung_lt02" remote="nfx" revision="nfx-6.0" />
   <project path="packages/apps/Apollo" name="nfxosp/platform_packages_apps_Apollo" remote="nfx" revision="nfx-6.0" groups="pdk-fs" />
   <project path="packages/apps/Browser" name="nfxosp/platform_packages_apps_Browser" remote="nfx" revision="nfx-6.0" groups="pdk-fs"/>
   <project path="packages/apps/Calendar" name="nfxosp/platform_packages_apps_Calendar" remote="nfx" revision="nfx-6.0" groups="pdk-fs" />
@@ -432,5 +435,6 @@
   <project path="system/vold" name="nfxosp/platform_system_vold" remote="nfx" revision="nfx-6.0" groups="pdk" />
   <project path="vendor/nfx" name="nfxosp/platform_vendor_nfx" remote="nfx" revision="nfx-6.0" groups="pdk" />
   <project path="vendor/samsung" name="nfxosp/platform_vendor_samsung" remote="nfx" revision="nfx-6.0" groups="pdk" />
+  <project path="vendor/samsung/lt02wifi" name="cmlt02/android_vendor_samsung_lt02wifi" remote="nfx" revision="creeper-1.0" />
 
 </manifest>
