@@ -482,33 +482,33 @@
   <project path="device/samsung/p3100" name="nfxosp/platform_device_samsung_p3100" remote="github" revision="nfx-6.0" />
   <project path="device/samsung/p3110" name="nfxosp/platform_device_samsung_p3110" remote="github" revision="nfx-6.0" /> -->
   <project path="device/samsung/zerofltexx" name="nfxosp/platform_device_samsung_zerofltexx" remote="nfx" revision="nfx-6.0" />
-  <project path="device/samsung/zero-common" name="CyanogenMod/android_device_samsung_zero-common" remote="github" revision="cm-14.0" />
-  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="github" revision="cm-14.0" />
-  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="github" revision="cm-14.0" />
-  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="github" revision="cm-14.0" />
-  <project path="external/curl" name="CyanogenMod/android_external_curl" remote="github" revision="cm-14.0" />
+  <project path="device/samsung/zero-common" name="CyanogenMod/android_device_samsung_zero-common" remote="github" revision="staging/cm-14.0" />
+  <project path="external/ant-wireless/ant_native" name="CyanogenMod/android_external_ant-wireless_ant_native" remote="github" revision="staging/cm-14.0" />
+  <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" remote="github" revision="staging/cm-14.0" />
+  <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" remote="github" revision="staging/cm-14.0" />
+  <project path="external/curl" name="CyanogenMod/android_external_curl" remote="github" revision="staging/cm-14.0" />
   <project path="external/elfutils" name="nfxosp/platform_external_elfutils" remote="github" revision="nfx-6.0" groups="pdk" />
-  <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-14.0" />
+  <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="staging/cm-14.0" />
   <project path="external/libnfc-nci" name="nfxosp/platform_external_libnfc-nci" groups="pdk" remote="nfx" revision="nfx-6.0" />
-  <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" remote="github" revision="cm-14.0" groups="pdk" />
-  <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="github" revision="cm-14.0" />
-  <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-14.0" />
+  <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" remote="github" revision="staging/cm-14.0" groups="pdk" />
+  <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="github" revision="staging/cm-14.0" />
+  <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="staging/cm-14.0" />
   <project path="frameworks/av" name="nfxosp/platform_frameworks_av" remote="nfx" revision="nfx-6.0" groups="pdk" />
   <project path="frameworks/base" name="nfxosp/platform_frameworks_base" remote="nfx" revision="nfx-6.0" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="nfxosp/platform_frameworks_native" remote="nfx" revision="nfx-6.0" groups="pdk" />
   <project path="frameworks/opt/telephony" name="nfxosp/platform_frameworks_opt_telephony" remote="nfx" revision="nfx-6.0" groups="pdk" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" remote="github" revision="cm-13.0" />
-  <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" remote="github" revision="cm-14.0" />
+  <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" remote="github" revision="staging/cm-14.0" />
   <project path="hardware/broadcom/libbt" name="nfxosp/platform_hardware_broadcom_libbt" remote="nfx" revision="nfx-6.0" groups="pdk" />
-  <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" remote="github" revision="cm-14.0" groups="invensense" />
+  <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" remote="github" revision="staging/cm-14.0" groups="invensense" />
   <project path="hardware/libhardware_legacy" name="nfxosp/platform_hardware_libhardware_legacy" remote="nfx" revision="nfx-6.0" groups="pdk" />
   <project path="hardware/marvell" name="cmlt02/android_hardware_marvell_wlan" groups="pdk" remote="nfx" revision="creeper-1.0" />
   <project path="hardware/ril" name="nfxosp/platform_hardware_ril" remote="nfx" revision="nfx-6.0" groups="pdk" />
-  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-14.0" />
-  <project path="hardware/samsung_slsi-cm/exynos" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos" remote="github" revision="cm-14.0" />
-  <project path="hardware/samsung_slsi-cm/exynos5" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5" remote="github" revision="cm-14.0" />
-  <project path="hardware/samsung_slsi-cm/exynos7420" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos7420" remote="github" revision="cm-14.0" />
-  <project path="hardware/samsung_slsi-cm/openmax" name="CyanogenMod/android_hardware_samsung_slsi-cm_openmax" remote="github" revision="cm-14.0" />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="staging/cm-14.0" />
+  <project path="hardware/samsung_slsi-cm/exynos" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos" remote="github" revision="staging/cm-14.0" />
+  <project path="hardware/samsung_slsi-cm/exynos5" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5" remote="github" revision="staging/cm-14.0" />
+  <project path="hardware/samsung_slsi-cm/exynos7420" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos7420" remote="github" revision="staging/cm-14.0" />
+  <project path="hardware/samsung_slsi-cm/openmax" name="CyanogenMod/android_hardware_samsung_slsi-cm_openmax" remote="github" revision="staging/cm-14.0" />
   <!-- <project path="hardware/ti/omap4" name="nfxosp/platform_hardware_ti_omap4" remote="nfx" revision="nfx-6.0" />
   <project path="kernel/samsung/espresso10" name="nfxosp/platform_kernel_samsung_espresso10" remote="nfx" revision="nfx-6.0" groups="pdk" /> -->
   <project path="kernel/samsung/exynos7420" name="nfxosp/platform_kernel_samsung_exynos7420" remote="nfx" revision="nfx-6.0" />
@@ -526,8 +526,8 @@
   <!-- <project path="packages/apps/SuperSU" name="GearCM/android_packages_apps_SuperSU" remote="github" revision="nfx-6.0" />
   <project path="packages/apps/Synapse" name="GearCM/android_packages_apps_Synapse" remote="github" revision="nfx-6.0" /> -->
   <project path="system/core" name="nfxosp/platform_system_core" remote="nfx" revision="nfx-6.0" groups="pdk" />
-  <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" revision="cm-14.0" groups="pdk" />
-  <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" remote="github" revision="cm-14.0" groups="pdk" />
+  <project path="system/extras" name="CyanogenMod/android_system_extras" remote="github" revision="staging/cm-14.0" groups="pdk" />
+  <project path="system/extras/su" name="CyanogenMod/android_system_extras_su" remote="github" revision="staging/cm-14.0" groups="pdk" />
   <project path="system/vold" name="nfxosp/platform_system_vold" remote="nfx" revision="nfx-6.0" groups="pdk" />
   <project path="vendor/nfx" name="nfxosp/platform_vendor_nfx" remote="nfx" revision="nfx-6.0" groups="pdk" />
   <project path="vendor/samsung" name="nfxosp/platform_vendor_samsung" remote="nfx" revision="nfx-6.0" groups="pdk" />
