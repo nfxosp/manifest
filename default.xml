@@ -492,7 +492,7 @@
   <project path="external/libnfc-nci" name="nfxosp/platform_external_libnfc-nci" groups="pdk" remote="nfx" revision="nfx-6.0" />
   <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" remote="github" revision="staging/cm-14.0" groups="pdk" />
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" remote="github" revision="staging/cm-14.0" />
-  <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="staging/cm-14.0" />
+  <project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-14.0" />
   <project path="frameworks/av" name="nfxosp/platform_frameworks_av" remote="nfx" revision="nfx-6.0" groups="pdk" />
   <project path="frameworks/base" name="nfxosp/platform_frameworks_base" remote="nfx" revision="nfx-6.0" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/native" name="nfxosp/platform_frameworks_native" remote="nfx" revision="nfx-6.0" groups="pdk" />
