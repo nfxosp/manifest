@@ -504,14 +504,14 @@
   <project path="hardware/libhardware_legacy" name="nfxosp/platform_hardware_libhardware_legacy" remote="nfx" revision="nfx-6.0" groups="pdk" />
   <project path="hardware/marvell" name="cmlt02/android_hardware_marvell_wlan" groups="pdk" remote="nfx" revision="creeper-1.0" />
   <project path="hardware/ril" name="nfxosp/platform_hardware_ril" remote="nfx" revision="nfx-6.0" groups="pdk" />
-  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="staging/cm-14.0" />
-  <project path="hardware/samsung_slsi-cm/exynos" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos" remote="github" revision="staging/cm-14.0" />
-  <project path="hardware/samsung_slsi-cm/exynos5" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5" remote="github" revision="staging/cm-14.0" />
-  <project path="hardware/samsung_slsi-cm/exynos7420" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos7420" remote="github" revision="staging/cm-14.0" />
-  <project path="hardware/samsung_slsi-cm/openmax" name="CyanogenMod/android_hardware_samsung_slsi-cm_openmax" remote="github" revision="staging/cm-14.0" />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-14.0" />
+  <project path="hardware/samsung_slsi-cm/exynos" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos" remote="github" revision="cm-14.0" />
+  <project path="hardware/samsung_slsi-cm/exynos5" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos5" remote="github" revision="cm-14.0" />
+  <project path="hardware/samsung_slsi-cm/exynos7420" name="CyanogenMod/android_hardware_samsung_slsi-cm_exynos7420" remote="github" revision="cm-14.0" />
+  <project path="hardware/samsung_slsi-cm/openmax" name="CyanogenMod/android_hardware_samsung_slsi-cm_openmax" remote="github" revision="cm-14.0" />
   <!-- <project path="hardware/ti/omap4" name="nfxosp/platform_hardware_ti_omap4" remote="nfx" revision="nfx-6.0" />
   <project path="kernel/samsung/espresso10" name="nfxosp/platform_kernel_samsung_espresso10" remote="nfx" revision="nfx-6.0" groups="pdk" /> -->
-  <project path="kernel/samsung/exynos7420" name="nfxosp/platform_kernel_samsung_exynos7420" remote="nfx" revision="nfx-6.0" />
+  <project path="kernel/samsung/exynos7420" name="CyanogenMod/android_kernel_samsung_exynos7420" remote="github" revision="cm-14.0" />
   <project path="kernel/samsung/lt02" name="nfxosp/platform_kernel_samsung_lt02" remote="nfx" revision="nfx-6.0" />
   <project path="packages/apps/Apollo" name="nfxosp/platform_packages_apps_Apollo" remote="nfx" revision="nfx-6.0" groups="pdk-fs" />
   <project path="packages/apps/Browser" name="nfxosp/platform_packages_apps_Browser" remote="nfx" revision="nfx-6.0" groups="pdk-fs"/>
